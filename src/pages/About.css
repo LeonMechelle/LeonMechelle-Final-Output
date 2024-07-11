@@ -1,0 +1,36 @@
+.about-sec {
+  height: 100vh;
+  background: black;
+  margin-top: 50px;
+
+}
+.card {
+  background: rgb(62, 61, 61);
+  height: 100vh;
+}
+
+.card-box {
+  background-color: rgb(62, 61, 61);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px; 
+ 
+}
+
+.box {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 150px;
+}
+
+.year {
+  color: rgb(240, 26, 169); 
+}

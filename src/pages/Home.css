@@ -1,0 +1,53 @@
+#home-info {
+    min-height: 70vh;
+    background: black;
+}
+
+#home-info img{
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#home-info .img{
+    align-self: center;
+}
+
+.text-animate {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(240, 237, 240);
+  -webkit-text-stroke: #340934;
+}
+.text{
+  color: #f6f6f4;
+}
+.mesil{
+  color: rgb(240, 26, 169);
+  font-size: 40px;
+}
+.mesils{
+  color: rgb(240, 26, 169);
+  font-size: 15px;
+}
+.btn {
+  padding: 10px 20px;
+  transition: all 0.4s ease;
+  font-weight: 400;
+  border-radius: 0;
+  width: 150px;
+  
+}
+
+.btn-brand {
+ background: rgb(240, 26, 169);
+ border-radius: 30px;
+ box-sizing: content-box;
+}
+
+.btn-brand:hover {
+  background: rgb(240, 26, 26);
+  color: rgb(17, 17, 17);
+  border: 2px solid var(--red-color);
+ 
+}

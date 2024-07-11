@@ -1,0 +1,67 @@
+.contact-us-sec {
+  background-color: rgb(237, 143, 205);
+  height: 100vh;
+  padding: 35px 0;
+  padding-top: 100px;
+}
+
+.contact-us h3 {
+  color: var(--primary-color); 
+  margin-bottom: 1rem; 
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  padding-top: 4rem;
+}
+
+.contact-details .left-sec,
+.contact-details .center-sec,
+.contact-details .right-sec {
+  flex: 1;
+  padding: 0 1rem; 
+}
+
+.contact-details h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.contact-details p {
+  margin: 0;
+}
+
+#email-id {
+  width: 226px;
+  height: 28px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 12px;
+  margin-top: 10px; 
+}
+
+.right-sec input {
+  margin-left: 10px;
+}
+
+.right-sec button {
+  margin-left: 10px; 
+  margin-top: 10px; 
+}
+
+
+footer {
+  background-color: var(--secondary-shade); 
+  padding: 10px 0;
+  color: burlywood;
+}
+
+
+#click,
+.menu-btn i {
+  display: none;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+.portfolio-sec {
+  background-color: rgb(237, 143, 205);
+  height: 150vh;
+  padding: 35px 0;
+  padding-top: 100px;
+}
+
+
+.portfolio > h1 {
+  color: var(--primary-color);
+  margin-bottom: 50px;
+}
+
+
+.portfolio-parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.portfolio-child {
+  background-color: transparent;
+  border: 1px solid var(--red-color);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: 0%;
+}
+
+.portfolio-child:hover {
+  transform: scale(1.05);
+  background-color: lavender;
+}
+
+.portfolio-child h3 {
+  margin-top: 10px;
+}
+
+.portfolio-child p {
+  margin-top: 5px;
+  line-height: 1.4;
+  text-align: left;
+  padding: 0 10px 10px;
+}
+
+.portfolio-child button {
+  margin: 15px;
+}
